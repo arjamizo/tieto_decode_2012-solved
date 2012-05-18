@@ -1,0 +1,1 @@
+puts (1000..100000).to_a.count{|n| n.to_s(16).count('1')==3 }
